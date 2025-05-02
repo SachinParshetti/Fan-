@@ -1,0 +1,203 @@
+
+        .header-top {
+            background-color: rgb(1, 1, 5);
+            display: flex;
+            justify-content: end;
+            padding: 5px;
+        }
+
+        .header-top a {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.7);
+            margin-right: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            border-right: 1px solid rgba(255, 255, 255, 0.4);
+            padding-right: 10px;
+        }
+
+        .header-top a:hover {
+            text-decoration: underline;
+        }
+
+        .header-main {
+            display: flex;
+            justify-content: space-between;
+            background-color: whitesmoke;
+            align-content: center;
+            padding: 10px;
+
+        }
+
+        .logo {
+            width: 350px;
+            padding-top: 25px;
+            margin-left: 30px;
+        }
+
+        .search-bar {
+            display: inline-block;
+            width: 450px;
+            padding: 15px;
+            color: lightgray;
+            margin-top: 10px;
+            margin-bottom: 10px; 
+            text-align: start;
+            font-size: 15px;
+            border-radius: 10px;
+            border: 1px solid lightgray;
+            margin-top: 10px;
+            margin-left: 20px;
+            
+        }
+        .header-right {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .bi-search {
+           margin: 10px 0px;
+        }
+        
+        .header-left span {
+            display: inline-block;
+            font-size: 25px;
+            margin-right: 10px;
+            padding-top: 10px;
+
+        }
+
+        .login-btn {
+            background-color: rgb(37, 64, 242);
+            color: white;
+            padding: 12px;
+            width: 80px;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 10px;
+            margin-right: 20px;
+            font-size: 15px;
+            border: 1px solid blue;
+        }
+
+        .section1 {
+            height: 600px;
+            background-image: url(./public/Images/Naresh-background.jpg.jpg);
+            background-size: 100%;
+
+        }
+
+        .section2 {
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .header-left+span {
+            font-size: 30px;
+        }
+
+        .cart-container {
+            height: 500px;
+            width: 410px;
+            border: 1px solid lightgrey;
+            border-radius: 10px;
+            margin-top: -150px;
+        }
+
+        .cart-container:hover {
+            box-shadow: 10px 10px 20px gray,-10px -10px 20px gray;
+        }
+
+        .cart-header {
+            height: 12em;
+
+        }
+
+        img {
+            border-radius: 8px;
+            border-bottom-right-radius: 0px;
+            border-bottom-left-radius: 0px;
+
+        }
+
+        .body-title {
+            font-size: 22px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+            text-align: justify;
+            font-weight: bold;
+
+        }
+
+        li {
+            list-style: none;
+
+        }
+
+        .ratings span {
+
+            color: goldenrod;
+            font-size: 20px;
+            margin-left: 5px;
+        }
+
+        .ratings {
+            text-align: start;
+            margin-left: 15px;
+            margin-top: -10px;
+        }
+
+
+        li {
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: -20px;
+            margin-bottom: 10px;
+        }
+
+        li span {
+            margin-left: 10px;
+        }
+
+
+        .cart-footer 
+        {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            /* margin-top: 40px; */
+            margin-top: 45px;
+            
+        }
+
+        .enroll {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid gray;
+            border-left: none;
+            border-bottom: none;
+            text-align: center;
+            background-color: rgb(34, 69, 173);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            border-bottom-left-radius: 8px;
+
+        }
+
+        .enroll:hover {
+            background-color: black;
+        }
+
+        .share {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid gray;
+             border-bottom: none;
+            border-right: none;
+            border-left: none; 
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        .share:hover{
+            background: whitesmoke;
+        }
